@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.wshh08.sudoku.MyView
+        android:background="@color/sudoku_background"
+        android:id="@+id/my_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:text="Reset Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:text="Step:0"
+        android:id="@+id/text_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
